@@ -31,4 +31,5 @@ The project addresses a real-world sustainability problem and demonstrates appli
 
 ## Demo & Verification
 
+- **Live Application**: [Streamlit Community Cloud Deployment](https://7yfhuhascbpnkozy5amork.streamlit.app/)
 - **Video Link**: [Watch the Presentation](https://drive.google.com/file/d/1R0HBjQRMv0RDgfnWBIUpA4S4B2I11B7H/view?usp=sharing)
