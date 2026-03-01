@@ -1,5 +1,3 @@
-generate_data.py
-ml_pipeline.py
 venv/
 __pycache__/
 .DS_Store
