@@ -1,148 +1,34 @@
-INTELLIGENT EV CHARGING
-DEMAND PREDICTION
-& AGENTIC INFRASTRUCTURE
-PLANNING
+# Intelligent EV Charging Demand Prediction & Agentic Infrastructure Planning
 
-From Usage Analytics to Autonomous Grid & Station Planning
+## Project Overview
 
-PROJECT OVERVIEW
-This project focuses on building an AI-driven analytics system for electric vehicle
-(EV) infrastructure planning.
-In Milestone 1, classical machine learning techniques are used to predict EV
-charging demand using historical charging station usage, time, and location data.
-In Milestone 2, the system evolves into an agentic AI assistant that reasons about
-charging demand patterns, retrieves infrastructure planning guidelines, and
-generates structured recommendations.
-The project addresses a real-world sustainability problem and demonstrates applied
-machine learning, agentic AI design, and system deployment.
+This project focuses on building an AI-driven analytics system for electric vehicle (EV) infrastructure planning.
 
-CONSTRAINTS & REQUIREMENTS
+This repository contains the deliverables for **Milestone 1**, where we used classical machine learning techniques to predict EV charging demand using historical charging station usage, time, and location data. We built a data preprocessing pipeline, calibrated a macroscopic demand model, and designed an interactive dashboard to visualize demand usage trends and predictive simulations.
 
-TEAM SIZE
-3–4 Students
+The project addresses a real-world sustainability problem and demonstrates applied machine learning and system deployment.
 
-API BUDGET
-Free Tier Only
+## Key Features (Milestone 1)
 
-FRAMEWORK
-LangGraph (Recommended)
+- **Analytics Dashboard**: Interactive visualizations showing Hourly Trends, City-wise Demand, Weekly Distribution, Weather Impact, Load Variance, and a Correlation Heatmap.
+- **ML Pipeline**: A robust `RandomForestRegressor` trained on aggregated macroscopic data (Time, Weather, Battery Capacity) to predict total charging `Total_Demand`.
+- **Predictive Simulation**: An interactive forecasting tool allowing users to simulate aggregate hourly load based on specific environmental and temporal scenarios.
 
-HOSTING
-Mandatory
+## Tech Stack
 
-APPROVED TECHNOLOGY STACK
+- **Language**: Python
+- **UI Framework**: Streamlit
+- **Machine Learning**: Scikit-Learn
+- **Data Visualization**: Plotly
+- **Data Manipulation**: Pandas, NumPy
 
-LLMS (MILESTONE 2)
-Open-source models
-Free-tier APIs
+## Team Members
 
-AGENT FRAMEWORK
-LangGraph (Recommended)
-Chroma / FAISS (RAG)
+- **Anwesha Adhikari** (2401010091) - _Leader_
+- **Anusha Prathapani** (2401010344)
+- **Kartikey Gupta** (2401010214)
+- **Agnik Misra** (2401010044)
 
-ML & ANALYTICS (MILESTONE 1)
-Scikit-Learn (Pipelines)
-Regression/Classification
-Feature Engineering
+## Demo & Verification
 
-UI FRAMEWORK
-Streamlit (Recommended)
-Gradio
-
-HOSTING PLATFORM (MANDATORY)
-Hugging Face Spaces
-Streamlit Community Cloud
-Render (Free Tier)
-
-WARNING: Localhost-only demonstrations will not be accepted.
-
-MILESTONE 1: ML-BASED EV CHARGING DEMAND
-PREDICTION
-
-MID-SEM SUBMISSION
-
-Objective: Predict EV charging demand at stations using historical usage data.
-Focus on cleaning real-world data and building robust predictive models
-without LLMs.
-Functional Requirements:
-Accept charging session and location data.
-Perform data preprocessing and feature engineering.
-Predict charging demand (Regression/Classification).
-Display demand usage trends via user interface.
-
-TECHNICAL REQUIREMENTS (ML)
-
-INPUTS & OUTPUTS
-
-MID-SEM DELIVERABLES
-■ Preprocessing: Time-series features, Cleaning.
-■ Features: Location, Time of Day, Usage history.
-■ Models: Random Forest, Gradient Boosting.
-■ Evaluation: MAE, RMSE, R-Squared.
-
-■ Input: Charging session CSV data.
-■ Output: Demand Prediction.
-■ Metrics: Trend Analysis.
-
-MILESTONE 2: AGENTIC EV INFRASTRUCTURE
-PLANNING
-
-END-SEM SUBMISSION
-
-Objective: Evolves into an agentic AI assistant that reasons about charging
-demand patterns and generates optimized infrastructure and scheduling
-recommendations.
-Functional Requirements:
-Analyze demand for high-load locations.
-Retrieve infrastructure planning guidelines.
-Generate optimal charger placement recommendations.
-Display scheduling optimization insights.
-
-TECHNICAL REQUIREMENTS (AGENTIC)
-
-STRUCTURED OUTPUT
-Problem understanding & Domain
-description.
-■
-
-■ Input–output specification.
-
-■ System architecture diagram.
-■ Working local application with UI.
-■ Model evaluation report.
-
-■ Framework: LangGraph (Workflow & State).
-■ RAG: Planning Guidelines (Chroma/FAISS).
-■ State: Explicit state management.
-■ Logic: Optimization reasoning.
-
-■ Analysis: Charging Demand Summary.
-■ Locate: High-load Location ID.
-
-END-SEM DELIVERABLES
-
-Final Artifacts: Hosted Link, GitHub Repo, Demo Video.
-
-EVALUATION CRITERIA
-
-PHASE WEIGHT CRITERIA
-
-Mid-Sem
-(Milestone 1)
-
-25%
-
-Correct ML pipeline & Demand Prediction
-Quality of Data Preprocessing & Evaluation
-UI Usability & Domain Understanding
-
-End-Sem
-(Milestone 2)
-
-30%
-
-Quality of Agent Reasoning & Planning
-Retrieval Integration (RAG) & State
-Deployment Success & Video Clarity
-Infrastructure Optimization LogicLast Updated: Feb 27, 2026
-Verified on local environment.
+- **Video Link**: [Watch the Presentation](https://drive.google.com/file/d/1R0HBjQRMv0RDgfnWBIUpA4S4B2I11B7H/view?usp=sharing)
